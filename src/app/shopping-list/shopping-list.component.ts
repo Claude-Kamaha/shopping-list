@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./shopping-list.component.css']
 })
 export class ShoppingListComponent {
-  ingredients = [];
+  ingredients = []=
+  [
+    {
+      name:"cumcumber",
+      amount:100
+    },
+    {
+      name:"onion",
+      amount:50
+    }
+  ];
 }
